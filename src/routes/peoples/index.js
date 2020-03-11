@@ -1,5 +1,7 @@
-export function peoples (fastify) {
-    fastify.get('/peoples', (request, reply) => {
-        reply.send({ peoples: 'are difficult!' })
-    })
+import Likes from './../../models/Likes'
+export default (fastify) => {
+  fastify.get('/peoples', async (request, reply) => {
+    const organizations = await Likes.query()
+    reply.send(organizations)
+  })
 }
