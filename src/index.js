@@ -1,5 +1,5 @@
 import dotenv from 'dotenv'
-import { routes } from './routes'
+import { routes } from '../routes'
 import connectDatabase from '../database'
 dotenv.config()
 
