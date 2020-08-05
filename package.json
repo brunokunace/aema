@@ -9,7 +9,7 @@
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "dotenv": "^8.2.0",
-    "fastify": "^2.12.1",
+    "fastify": "^2.15.1",
     "knex": "^0.20.11",
     "mysql": "^2.18.1",
     "objection": "^2.1.3",
